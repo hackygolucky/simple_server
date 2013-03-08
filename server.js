@@ -11,8 +11,6 @@ http.createServer(function (req, res) {
 			, '<label>Personal information</label>'
 			, '<p>What is your  name?</p>'
 			, '<input type="text" name="name">'
-			, '<p>What is your fave animal?</p>'
-			, '<input type="text" value="fave">'
 			, '<p><button>Submit</button></p>'
 			, '</form>'
 		].join('')); 
